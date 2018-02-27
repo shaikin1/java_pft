@@ -25,7 +25,7 @@ public class GroupCreationTests {
     }
     
     @Test
-    public void GroupCreationTests() {
+    public void testGroupCreation() {
         wd.get("http://localhost/addressbook/");
         wd.findElement(By.name("pass")).click();
         wd.findElement(By.name("pass")).sendKeys("\\undefined");
