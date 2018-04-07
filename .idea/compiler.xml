@@ -4,6 +4,10 @@
     <bytecodeTargetLevel>
       <module name="addressbook-web-tests_main" target="1.9" />
       <module name="addressbook-web-tests_test" target="1.9" />
+      <module name="homework-1_main" target="1.9" />
+      <module name="homework-1_test" target="1.9" />
+      <module name="homework_main" target="1.9" />
+      <module name="homework_test" target="1.9" />
       <module name="sandbox_main" target="1.9" />
       <module name="sandbox_test" target="1.9" />
     </bytecodeTargetLevel>

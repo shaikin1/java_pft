@@ -5,6 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_main.iml" group="addressbook-web-tests" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests_test.iml" group="addressbook-web-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework.iml" filepath="$PROJECT_DIR$/.idea/modules/homework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework-1.iml" filepath="$PROJECT_DIR$/.idea/modules/homework-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homework-1_main.iml" group="homework-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homework-1_test.iml" group="homework-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/homework_main.iml" group="homework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/homework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/homework_test.iml" group="homework" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_main.iml" group="sandbox" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sandbox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sandbox_test.iml" group="sandbox" />
