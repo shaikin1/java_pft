@@ -1,4 +1,4 @@
-package ru.stqa.pft.homework;
+package ru.stqa.pft.homework.model;
 
 public class ContactData {
   private final String firstname;
