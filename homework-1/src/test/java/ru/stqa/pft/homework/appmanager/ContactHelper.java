@@ -34,8 +34,7 @@ public class ContactHelper extends HelperBase {
   }
 
   public void acceptDeletionContact() {
-    Alert alert = wd.switchTo().alert();
-    alert.accept();
+    wd.switchTo().alert().accept();
   }
 
   public void deleteSelectedContact() {
@@ -46,5 +45,13 @@ public class ContactHelper extends HelperBase {
     if (!wd.findElement(By.name("selected[]")).isSelected()) {
       click(By.name("selected[]"));
     }
+  }
+
+  public void initContactModification() {
+    click(By.xpath("//table[@id='maintable']/tbody/tr[2]/td[8]/a/img"));
+  }
+
+  public void updateContactModification() {
+    click(By.name("update"));
   }
 }
