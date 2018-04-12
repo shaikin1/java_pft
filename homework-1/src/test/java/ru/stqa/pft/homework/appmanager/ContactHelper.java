@@ -1,6 +1,5 @@
 package ru.stqa.pft.homework.appmanager;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import ru.stqa.pft.homework.model.ContactData;

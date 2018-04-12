@@ -10,6 +10,7 @@ public class ApplicationManager {
 
   private SessionHelper sessionHelper;
   private ContactHelper contactHelper;
+  private GroupHelper groupHelper;
 
   public void init() {
     wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
@@ -17,6 +18,7 @@ public class ApplicationManager {
     wd.get("http://localhost/addressbook/");
     contactHelper = new ContactHelper(wd);
     sessionHelper = new SessionHelper(wd);
+    groupHelper = new GroupHelper(wd);
     sessionHelper.login("admin", "secret");
   }
 
@@ -26,5 +28,9 @@ public class ApplicationManager {
 
   public ContactHelper getContactHelper() {
     return contactHelper;
+  }
+
+  public GroupHelper getGroupHelper() {
+    return groupHelper;
   }
 }
