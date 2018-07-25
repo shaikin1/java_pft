@@ -1,9 +1,7 @@
 package ru.stqa.pft.homework.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import ru.stqa.pft.homework.model.ContactData;
@@ -63,5 +61,16 @@ public class ContactHelper extends HelperBase {
 
   public void updateContactModification() {
     click(By.name("update"));
+  }
+
+  public void createContact(ContactData contact, boolean b) {
+    initContactCreation();
+    fillContactForm(contact, true);
+    submitContactCreation();
+    returnToContactPage();
+  }
+
+  public boolean isThereAContact() {
+    return isElementPresent(By.name("selected[]"));
   }
 }
