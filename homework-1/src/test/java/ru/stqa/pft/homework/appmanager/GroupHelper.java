@@ -33,8 +33,8 @@ public class GroupHelper extends HelperBase {
     click(By.linkText("groups"));
   }
 
-  public void selectAnyGroup() {
-    click(By.name("selected[]"));
+  public void selectAnyGroup(int index) {
+    wd.findElements(By.name("selected[]")).get(index).click();
   }
 
   public void deleteSelectedGroup() {
