@@ -13,7 +13,7 @@ public class ContactData {
   private int id;
 
   public ContactData(String firstname, String lastname, String title, String company, String home, String email, String group) {
-    this.id = 0;
+    this.id = Integer.MAX_VALUE;
     this.firstname = firstname;
     this.lastname = lastname;
     this.title = title;
@@ -31,6 +31,10 @@ public class ContactData {
     this.company = company;
     this.home = home;
     this.email = email;
+    this.group = group;
+  }
+
+  public void setGroup(String group) {
     this.group = group;
   }
 
@@ -66,21 +70,12 @@ public class ContactData {
     return group;
   }
 
-  public void setId(int id) {
-    this.id = id;
-  }
-
   @Override
   public String toString() {
     return "ContactData{" +
-            "id=" + id +
-            ", firstname='" + firstname + '\'' +
+            "firstname='" + firstname + '\'' +
             ", lastname='" + lastname + '\'' +
-            ", title='" + title + '\'' +
-            ", company='" + company + '\'' +
-            ", home='" + home + '\'' +
-            ", email='" + email + '\'' +
-            ", group='" + group + '\'' +
+            ", id=" + id +
             '}';
   }
 
@@ -89,19 +84,17 @@ public class ContactData {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
     ContactData that = (ContactData) o;
-    return id == that.id &&
-            Objects.equals(firstname, that.firstname) &&
-            Objects.equals(lastname, that.lastname) &&
-            Objects.equals(title, that.title) &&
-            Objects.equals(company, that.company) &&
-            Objects.equals(home, that.home) &&
-            Objects.equals(email, that.email) &&
-            Objects.equals(group, that.group);
+    return Objects.equals(firstname, that.firstname) &&
+            Objects.equals(lastname, that.lastname);
   }
 
   @Override
   public int hashCode() {
 
-    return Objects.hash(id, firstname, lastname, title, company, home, email, group);
+    return Objects.hash(firstname, lastname);
+  }
+
+  public void setId(int id) {
+    this.id = id;
   }
 }
