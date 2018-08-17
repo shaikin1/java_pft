@@ -1,5 +1,6 @@
 package ru.stqa.pft.annotate;
 
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.AfterMethod;
@@ -16,11 +17,11 @@ import org.openqa.selenium.*;
 import static org.openqa.selenium.OutputType.*;
 
 public class testLogin {
-    FirefoxDriver wd;
+    ChromeDriver wd;
     
     @BeforeMethod
     public void setUp() throws Exception {
-        wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
+        wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
     
