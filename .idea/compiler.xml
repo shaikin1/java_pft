@@ -10,6 +10,8 @@
       <module name="homework_test" target="1.9" />
       <module name="sandbox_main" target="1.9" />
       <module name="sandbox_test" target="1.9" />
+      <module name="unbabel_main" target="1.9" />
+      <module name="unbabel_test" target="1.9" />
     </bytecodeTargetLevel>
   </component>
 </project>
