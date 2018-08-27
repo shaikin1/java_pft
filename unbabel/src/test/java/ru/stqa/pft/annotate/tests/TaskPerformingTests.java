@@ -19,6 +19,7 @@ public class TaskPerformingTests extends TestBase {
     app.getTaskHelper().submitProposeGlossaryTerms();
     app.getTaskHelper().gotoFinishOrReport();
     app.getTaskHelper().chooseTaskFluency();
+    app.getTaskHelper().fillTaskComment();
     app.getTaskHelper().submitFinishOrReport();
     app.getTaskHelper().acceptFinishingJob();
   }

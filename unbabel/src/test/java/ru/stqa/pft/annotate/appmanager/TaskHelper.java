@@ -63,4 +63,9 @@ public class TaskHelper extends HelperBase {
   public void initTask() {
     wd.switchTo().activeElement().findElement(By.xpath("//div[@class='c-TopBar__navWrapper']/div[2]")).click();
   }
+
+  public void fillTaskComment() {
+    click(By.xpath("//textarea[@class='c-TaskFeedback__comment']"));
+
+  }
 }
