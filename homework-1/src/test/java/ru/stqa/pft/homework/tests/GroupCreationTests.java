@@ -1,17 +1,11 @@
 package ru.stqa.pft.homework.tests;
 
-import org.hamcrest.CoreMatchers;
-import org.hamcrest.junit.MatcherAssert;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import ru.stqa.pft.homework.model.GroupData;
 import ru.stqa.pft.homework.model.Groups;
 
-import java.util.Set;
-
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.junit.MatcherAssert.assertThat;
-import static org.testng.Assert.assertEquals;
 
 public class GroupCreationTests extends TestBase {
 
