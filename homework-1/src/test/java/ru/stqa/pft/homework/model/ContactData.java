@@ -3,40 +3,14 @@ package ru.stqa.pft.homework.model;
 import java.util.Objects;
 
 public class ContactData {
-  private final String firstname;
-  private final String lastname;
-  private final String title;
-  private final String company;
-  private final String home;
-  private final String email;
+  private String firstname;
+  private String lastname;
+  private String title;
+  private String company;
+  private String home;
+  private String email;
   private String group;
-  private int id;
-
-  public ContactData(String firstname, String lastname, String title, String company, String home, String email, String group) {
-    this.id = Integer.MAX_VALUE;
-    this.firstname = firstname;
-    this.lastname = lastname;
-    this.title = title;
-    this.company = company;
-    this.home = home;
-    this.email = email;
-    this.group = group;
-  }
-
-  public ContactData(int id, String firstname, String lastname, String title, String company, String home, String email, String group) {
-    this.id = id;
-    this.firstname = firstname;
-    this.lastname = lastname;
-    this.title = title;
-    this.company = company;
-    this.home = home;
-    this.email = email;
-    this.group = group;
-  }
-
-  public void setGroup(String group) {
-    this.group = group;
-  }
+  private int id = Integer.MAX_VALUE;
 
   public String getFirstname() {
     return firstname;
@@ -94,7 +68,43 @@ public class ContactData {
     return Objects.hash(firstname, lastname);
   }
 
-  public void setId(int id) {
+  public ContactData withId(int id) {
     this.id = id;
+    return this;
+  }
+
+  public ContactData withGroup(String group) {
+    this.group = group;
+    return this;
+  }
+
+  public ContactData withFirstname(String firstname) {
+    this.firstname = firstname;
+    return this;
+  }
+
+  public ContactData withLastname(String lastname) {
+    this.lastname = lastname;
+    return this;
+  }
+
+  public ContactData withTitle(String title) {
+    this.title = title;
+    return this;
+  }
+
+  public ContactData withCompany(String company) {
+    this.company = company;
+    return this;
+  }
+
+  public ContactData withHome(String home) {
+    this.home = home;
+    return this;
+  }
+
+  public ContactData withEmail(String email) {
+    this.email = email;
+    return this;
   }
 }
