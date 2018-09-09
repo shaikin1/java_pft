@@ -1,9 +1,12 @@
 package ru.stqa.pft.homework.tests;
 
+import org.hamcrest.CoreMatchers;
+import org.hamcrest.junit.MatcherAssert;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import ru.stqa.pft.homework.model.ContactData;
+import ru.stqa.pft.homework.model.Contacts;
 
 import java.util.Comparator;
 import java.util.List;
@@ -21,17 +24,15 @@ public class ContactModificationTests extends TestBase {
 
   @Test(enabled = true)
   public void testContactModification() {
-    Set<ContactData> before = app.contact().all();
+    Contacts before = app.contact().all();
     ContactData modifiedContact = before.iterator().next();
     ContactData contact = new ContactData().withId(modifiedContact.getId()).withFirstname("Sergei").withLastname("Shaikin").withTitle("Engineer").withCompany("Google").withHome("+79876391174").withEmail("shaikins@yahoo.com");
     app.contact().modify(contact);
-    Set<ContactData> after = app.contact().all();
+    Contacts after = app.contact().all();
     Assert.assertEquals(after.size(), before.size());
-
     before.remove(modifiedContact);
     before.add(contact);
     Assert.assertEquals(before, after);
+    MatcherAssert.assertThat(after, CoreMatchers.equalTo(before.without(modifiedContact).withAdded(contact)));
   }
-
-
 }
