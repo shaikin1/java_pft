@@ -5,6 +5,7 @@ import java.util.Objects;
 public class ContactData {
   private String firstname;
   private String lastname;
+  private String address;
   private String title;
   private String company;
   private String home;
@@ -75,6 +76,10 @@ public class ContactData {
     return lastname;
   }
 
+  public String getAddress() {
+    return address;
+  }
+
   public String getTitle() {
     return title;
   }
@@ -126,7 +131,6 @@ public class ContactData {
 
   public ContactData withId(int id) {
     this.id = id;
-
     return this;
   }
 
@@ -177,6 +181,11 @@ public class ContactData {
 
   public ContactData withHomePhone(String homePhone) {
     this.homePhone = homePhone;
+    return this;
+  }
+
+  public ContactData withAddress(String address) {
+    this.address = address;
     return this;
   }
 }
