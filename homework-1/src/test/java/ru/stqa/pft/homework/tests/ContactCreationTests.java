@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import ru.stqa.pft.homework.model.ContactData;
 import ru.stqa.pft.homework.model.Contacts;
 
-import java.io.File;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -17,11 +17,15 @@ import static org.testng.Assert.assertEquals;
 public class ContactCreationTests extends TestBase {
 
   @DataProvider
-  public Iterator<Object[]> validContacts() {
+  public Iterator<Object[]> validContacts() throws IOException {
     List<Object[]> list = new ArrayList<Object[]>();
-    list.add(new Object[] {new ContactData().withFirstname("firstname1").withLastname("lastname 1").withTitle("title 1").withCompany("company 1").withHome("home 1").withAddress("address 1").withEmail("email 1").withGroup("test 1")});
-    list.add(new Object[] {new ContactData().withFirstname("firstname2").withLastname("lastname 2").withTitle("title 2").withCompany("company 2").withHome("home 2").withAddress("address 2").withEmail("email 2").withGroup("test 2")});
-    list.add(new Object[] {new ContactData().withFirstname("firstname3").withLastname("lastname 3").withTitle("title 3").withCompany("company 3").withHome("home 3").withAddress("address 3").withEmail("email 3").withGroup("test 3")});
+    BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/contacts.csv")));
+    String line = reader.readLine();
+    while (line != null) {
+      String[] split = line.split(";");
+      list.add(new Object[] {new ContactData().withFirstname(split[0]).withLastname(split[1]).withTitle(split[3]).withCompany(split[4]).withHome(split[5]).withAddress(split[6]).withEmail(split[7]).withGroup(split[8])});
+      line = reader.readLine();
+    }
     return list.iterator();
   }
 
