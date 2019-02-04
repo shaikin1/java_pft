@@ -1,0 +1,242 @@
+<list>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 0</firstname>
+    <lastname>Bo 0</lastname>
+    <address>Wall Street 0</address>
+    <title>Boss 0</title>
+    <company>Apple 0</company>
+    <home>+7-987-639-11-70</home>
+    <email>shaikin0@yahoo.com</email>
+    <group>test 0</group>
+    <homePhone>7-51-30</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 1</firstname>
+    <lastname>Bo 1</lastname>
+    <address>Wall Street 1</address>
+    <title>Boss 1</title>
+    <company>Apple 1</company>
+    <home>+7-987-639-11-71</home>
+    <email>shaikin1@yahoo.com</email>
+    <group>test 1</group>
+    <homePhone>7-51-31</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 2</firstname>
+    <lastname>Bo 2</lastname>
+    <address>Wall Street 2</address>
+    <title>Boss 2</title>
+    <company>Apple 2</company>
+    <home>+7-987-639-11-72</home>
+    <email>shaikin2@yahoo.com</email>
+    <group>test 2</group>
+    <homePhone>7-51-32</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 3</firstname>
+    <lastname>Bo 3</lastname>
+    <address>Wall Street 3</address>
+    <title>Boss 3</title>
+    <company>Apple 3</company>
+    <home>+7-987-639-11-73</home>
+    <email>shaikin3@yahoo.com</email>
+    <group>test 3</group>
+    <homePhone>7-51-33</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 4</firstname>
+    <lastname>Bo 4</lastname>
+    <address>Wall Street 4</address>
+    <title>Boss 4</title>
+    <company>Apple 4</company>
+    <home>+7-987-639-11-74</home>
+    <email>shaikin4@yahoo.com</email>
+    <group>test 4</group>
+    <homePhone>7-51-34</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 5</firstname>
+    <lastname>Bo 5</lastname>
+    <address>Wall Street 5</address>
+    <title>Boss 5</title>
+    <company>Apple 5</company>
+    <home>+7-987-639-11-75</home>
+    <email>shaikin5@yahoo.com</email>
+    <group>test 5</group>
+    <homePhone>7-51-35</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 6</firstname>
+    <lastname>Bo 6</lastname>
+    <address>Wall Street 6</address>
+    <title>Boss 6</title>
+    <company>Apple 6</company>
+    <home>+7-987-639-11-76</home>
+    <email>shaikin6@yahoo.com</email>
+    <group>test 6</group>
+    <homePhone>7-51-36</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 7</firstname>
+    <lastname>Bo 7</lastname>
+    <address>Wall Street 7</address>
+    <title>Boss 7</title>
+    <company>Apple 7</company>
+    <home>+7-987-639-11-77</home>
+    <email>shaikin7@yahoo.com</email>
+    <group>test 7</group>
+    <homePhone>7-51-37</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 8</firstname>
+    <lastname>Bo 8</lastname>
+    <address>Wall Street 8</address>
+    <title>Boss 8</title>
+    <company>Apple 8</company>
+    <home>+7-987-639-11-78</home>
+    <email>shaikin8@yahoo.com</email>
+    <group>test 8</group>
+    <homePhone>7-51-38</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 9</firstname>
+    <lastname>Bo 9</lastname>
+    <address>Wall Street 9</address>
+    <title>Boss 9</title>
+    <company>Apple 9</company>
+    <home>+7-987-639-11-79</home>
+    <email>shaikin9@yahoo.com</email>
+    <group>test 9</group>
+    <homePhone>7-51-39</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 10</firstname>
+    <lastname>Bo 10</lastname>
+    <address>Wall Street 10</address>
+    <title>Boss 10</title>
+    <company>Apple 10</company>
+    <home>+7-987-639-11-710</home>
+    <email>shaikin10@yahoo.com</email>
+    <group>test 10</group>
+    <homePhone>7-51-310</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 11</firstname>
+    <lastname>Bo 11</lastname>
+    <address>Wall Street 11</address>
+    <title>Boss 11</title>
+    <company>Apple 11</company>
+    <home>+7-987-639-11-711</home>
+    <email>shaikin11@yahoo.com</email>
+    <group>test 11</group>
+    <homePhone>7-51-311</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 12</firstname>
+    <lastname>Bo 12</lastname>
+    <address>Wall Street 12</address>
+    <title>Boss 12</title>
+    <company>Apple 12</company>
+    <home>+7-987-639-11-712</home>
+    <email>shaikin12@yahoo.com</email>
+    <group>test 12</group>
+    <homePhone>7-51-312</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 13</firstname>
+    <lastname>Bo 13</lastname>
+    <address>Wall Street 13</address>
+    <title>Boss 13</title>
+    <company>Apple 13</company>
+    <home>+7-987-639-11-713</home>
+    <email>shaikin13@yahoo.com</email>
+    <group>test 13</group>
+    <homePhone>7-51-313</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 14</firstname>
+    <lastname>Bo 14</lastname>
+    <address>Wall Street 14</address>
+    <title>Boss 14</title>
+    <company>Apple 14</company>
+    <home>+7-987-639-11-714</home>
+    <email>shaikin14@yahoo.com</email>
+    <group>test 14</group>
+    <homePhone>7-51-314</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 15</firstname>
+    <lastname>Bo 15</lastname>
+    <address>Wall Street 15</address>
+    <title>Boss 15</title>
+    <company>Apple 15</company>
+    <home>+7-987-639-11-715</home>
+    <email>shaikin15@yahoo.com</email>
+    <group>test 15</group>
+    <homePhone>7-51-315</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 16</firstname>
+    <lastname>Bo 16</lastname>
+    <address>Wall Street 16</address>
+    <title>Boss 16</title>
+    <company>Apple 16</company>
+    <home>+7-987-639-11-716</home>
+    <email>shaikin16@yahoo.com</email>
+    <group>test 16</group>
+    <homePhone>7-51-316</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 17</firstname>
+    <lastname>Bo 17</lastname>
+    <address>Wall Street 17</address>
+    <title>Boss 17</title>
+    <company>Apple 17</company>
+    <home>+7-987-639-11-717</home>
+    <email>shaikin17@yahoo.com</email>
+    <group>test 17</group>
+    <homePhone>7-51-317</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 18</firstname>
+    <lastname>Bo 18</lastname>
+    <address>Wall Street 18</address>
+    <title>Boss 18</title>
+    <company>Apple 18</company>
+    <home>+7-987-639-11-718</home>
+    <email>shaikin18@yahoo.com</email>
+    <group>test 18</group>
+    <homePhone>7-51-318</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+  <ru.stqa.pft.homework.model.ContactData>
+    <firstname>Tom 19</firstname>
+    <lastname>Bo 19</lastname>
+    <address>Wall Street 19</address>
+    <title>Boss 19</title>
+    <company>Apple 19</company>
+    <home>+7-987-639-11-719</home>
+    <email>shaikin19@yahoo.com</email>
+    <group>test 19</group>
+    <homePhone>7-51-319</homePhone>
+    <id>2147483647</id>
+  </ru.stqa.pft.homework.model.ContactData>
+</list>

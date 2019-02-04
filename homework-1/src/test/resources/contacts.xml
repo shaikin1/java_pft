@@ -1,0 +1,35 @@
+<list>
+  <contacts>
+    <lastname>Bo 0</lastname>
+    <address>Wall Street 0</address>
+    <title>Boss 0</title>
+    <company>Apple 0</company>
+    <home>+7-987-639-11-70</home>
+    <email>shaikin0@yahoo.com</email>
+    <group>test 0</group>
+    <homePhone>7-51-30</homePhone>
+    <id>2147483647</id>
+  </contacts>
+  <contacts>
+    <lastname>Bo 1</lastname>
+    <address>Wall Street 1</address>
+    <title>Boss 1</title>
+    <company>Apple 1</company>
+    <home>+7-987-639-11-71</home>
+    <email>shaikin1@yahoo.com</email>
+    <group>test 1</group>
+    <homePhone>7-51-31</homePhone>
+    <id>2147483647</id>
+  </contacts>
+  <contacts>
+    <lastname>Bo 2</lastname>
+    <address>Wall Street 2</address>
+    <title>Boss 2</title>
+    <company>Apple 2</company>
+    <home>+7-987-639-11-72</home>
+    <email>shaikin2@yahoo.com</email>
+    <group>test 2</group>
+    <homePhone>7-51-32</homePhone>
+    <id>2147483647</id>
+  </contacts>
+</list>
