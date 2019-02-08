@@ -1,0 +1,32 @@
+[
+  {
+    "firstname": "Tom 0",
+    "lastname": "Bo 0",
+    "address": "Wall Street 0",
+    "title": "Boss 0",
+    "company": "Apple 0",
+    "home": "+7-987-639-11-70",
+    "email": "shaikin0@yahoo.com",
+    "group": "test 0"
+  },
+  {
+    "firstname": "Tom 1",
+    "lastname": "Bo 1",
+    "address": "Wall Street 1",
+    "title": "Boss 1",
+    "company": "Apple 1",
+    "home": "+7-987-639-11-71",
+    "email": "shaikin1@yahoo.com",
+    "group": "test 1"
+  },
+  {
+    "firstname": "Tom 2",
+    "lastname": "Bo 2",
+    "address": "Wall Street 2",
+    "title": "Boss 2",
+    "company": "Apple 2",
+    "home": "+7-987-639-11-72",
+    "email": "shaikin2@yahoo.com",
+    "group": "test 2"
+  }
+]

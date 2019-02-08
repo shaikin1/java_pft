@@ -1,6 +1,5 @@
 package ru.stqa.pft.homework.appmanager;
 
-import com.google.common.io.ByteArrayDataOutput;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,10 +8,7 @@ import org.testng.Assert;
 import ru.stqa.pft.homework.model.ContactData;
 import ru.stqa.pft.homework.model.Contacts;
 
-import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class ContactHelper extends HelperBase {
 

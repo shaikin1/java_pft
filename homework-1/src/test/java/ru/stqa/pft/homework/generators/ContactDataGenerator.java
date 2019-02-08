@@ -3,6 +3,8 @@ package ru.stqa.pft.homework.generators;
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import ru.stqa.pft.homework.model.ContactData;
 import com.thoughtworks.xstream.XStream;
 
@@ -42,10 +44,20 @@ public class ContactDataGenerator {
             saveAsCsv(contacts, new File(file));
         } else if (format.equals("xml")) {
             saveAsXml(contacts, new File(file));
+        } else if (format.equals("json")) {
+            saveAsJson(contacts, new File(file));
         } else {
             System.out.println("Unrecognized format " + format);
         }
 
+    }
+
+    private void saveAsJson(List<ContactData> contacts, File file) throws IOException {
+        Gson gson = new GsonBuilder().setPrettyPrinting().excludeFieldsWithoutExposeAnnotation().create();
+        String json = gson.toJson(contacts);
+        Writer writer = new FileWriter(file);
+        writer.write(json);
+        writer.close();
     }
 
     private void saveAsXml(List<ContactData> contacts, File file) throws IOException {
@@ -61,7 +73,7 @@ public class ContactDataGenerator {
         Writer writer = new FileWriter(file);
         for (ContactData contact : contacts) {
             writer.write(String.format("%s;%s;%s;%s;%s;%s;%s;%s;%s\n", contact.getFirstname(), contact.getLastname(), contact.getTitle(), contact.getCompany(), contact.getHome(),
-                    contact.getAddress(), contact.getHomePhone(), contact.getEmail(), contact.getGroup()));
+                    contact.getAddress(), contact.getEmail(), contact.getGroup()));
         }
         writer.close();
     }
@@ -70,7 +82,7 @@ public class ContactDataGenerator {
         List<ContactData> contacts = new ArrayList<ContactData>();
         for (int i = 0; i < count; i++) {
             contacts.add(new ContactData().withFirstname(String.format("Tom %s", i)).withLastname(String.format("Bo %s", i)).withTitle(String.format("Boss %s", i))
-                    .withCompany(String.format("Apple %s", i)).withHome(String.format("+7-987-639-11-7%s", i)).withAddress(String.format("Wall Street %s", i)).withHomePhone(String.format("7-51-3%s", i))
+                    .withCompany(String.format("Apple %s", i)).withHome(String.format("+7-987-639-11-7%s", i)).withAddress(String.format("Wall Street %s", i))
                     .withEmail(String.format("shaikin%s@yahoo.com", i)).withGroup(String.format("test %s", i)));
         }
         return contacts;
