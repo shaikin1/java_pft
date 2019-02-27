@@ -27,6 +27,7 @@ public class ApplicationManager {
       wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
     }    else if (browser.equals(BrowserType.CHROME)) {
       wd = new ChromeDriver();
+      wd.get("http://www.google.com/xhtml");
     } else if (browser.equals(BrowserType.IE)) {
       wd = new InternetExplorerDriver();
     }
