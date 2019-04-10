@@ -1,5 +1,6 @@
 package ru.stqa.pft.homework.tests;
 
+import com.sun.org.apache.xpath.internal.operations.Equals;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
@@ -7,7 +8,7 @@ import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import ru.stqa.pft.homework.model.GroupData;
+import ru.stqa.pft.homework.model.ContactData;
 
 import java.util.List;
 
@@ -36,9 +37,10 @@ public class HbConnectionTest {
     public void testHbConnection() {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-        List<GroupData> result = session.createQuery("from GroupData").list();
-        for (GroupData group : result) {
-            System.out.println(group);
+        List<ContactData> result = session.createQuery("from ContactData").list();
+
+        for (ContactData contact : result) {
+            System.out.println(contact);
         }
         session.getTransaction().commit();
         session.close();
