@@ -7,7 +7,8 @@
     "company": "Apple 0",
     "home": "+7-987-639-11-70",
     "email": "shaikin0@yahoo.com",
-    "group": "test 0"
+    "group": "test 0",
+    "photo": "src/test/resources/stru.jpg"
   },
   {
     "firstname": "Liliia 1",
@@ -17,7 +18,8 @@
     "company": "Apple 1",
     "home": "+7-987-639-11-71",
     "email": "shaikin1@yahoo.com",
-    "group": "test 1"
+    "group": "test 1",
+    "photo": "src/test/resources/stru.jpg"
   },
   {
     "firstname": "Liliia 2",
@@ -27,6 +29,7 @@
     "company": "Apple 2",
     "home": "+7-987-639-11-72",
     "email": "shaikin2@yahoo.com",
-    "group": "test 2"
+    "group": "test 2",
+    "photo": "src/test/resources/stru.jpg"
   }
 ]

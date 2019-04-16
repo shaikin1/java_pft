@@ -12,6 +12,9 @@ import java.util.Objects;
 @Entity
 @Table(name = "addressbook")
 public class ContactData {
+  @Id
+  @Column(name = "id")
+  private int id = Integer.MAX_VALUE;
   @Expose
   @Column(name = "firstname")
   private String firstname;
@@ -57,9 +60,7 @@ public class ContactData {
   private String email3;
   @Transient
   private String allEmails;
-  @Id
-  @Column(name = "id")
-  private int id = Integer.MAX_VALUE;
+  @Expose
   @Column(name = "photo")
   @Type(type = "text")
   private String photo;
